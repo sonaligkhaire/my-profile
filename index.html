@@ -5,9 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        header{
+            background-color: purple;
+            color: orange;
+        }
+        span{
+            color: orange;
+        }
+        a{
+            text-decoration: none; 
+            /* text-decoration-line: none; */
+            text-transform: uppercase;
+            
+        }
+        .fa-2x{
+            color: aqua;
+        }
+        .h2{
+            background-color:blanchedalmond; 
+            color:darkcyan;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size:x-large;
+            font-weight: bolder;
+            text-transform: capitalize;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+            text-shadow: 4px 4px 2px rgba(149, 134, 134, 0.6);  
+        }
+    </style>
+
 </head>
 <body>
-    <h2> My Profile Details</h2>
+    <h2 class="h2"> My Profile Details</h2>
+    <header>
     <i class="fa fa-user" aria-hidden="true">  </i>
     <span>Sonali Khaire</span>
     &nbsp; &nbsp; &nbsp;
@@ -15,31 +47,34 @@
     &nbsp; &nbsp; &nbsp;
     <i class="fa fa-envelope" aria-hidden="true"> sonaligkhaire601@gmail.com</i> 
     &nbsp; &nbsp; &nbsp;
-    <i class="fa fa-download" aria-hidden="true"><a href="assets/RESUME.pdf" target="myFrame">Download Resume</a></i>
+    <i class="fa fa-download" aria-hidden="true"><a href="assets/RESUME.pdf" target="myFrame"><span>Download Resume</span></a></i>
+    </header>
     <br><br>
 
+
     
-   
-    <a href="home.html" target="myFrame">HOME</a> &nbsp; &nbsp;
-    <a href="techStack.html" target="myFrame">TECHSTACK</a> &nbsp; &nbsp;
-    <a href="project.html" target="myFrame">PROJECT</a> &nbsp; &nbsp;
-    <a href="education.html" target="myFrame">EDUCATION</a> &nbsp; &nbsp;
-    <a href="aboutMe.html" target="myFrame">ABOUT ME</a> &nbsp; &nbsp; &nbsp;
+   <nav>
+    <a href="home.html" target="myFrame">home</a> &nbsp; &nbsp;
+    <a href="techStack.html" target="myFrame">tech stack</a> &nbsp; &nbsp;
+    <a href="project.html" target="myFrame">project</a> &nbsp; &nbsp;
+    <a href="education.html" target="myFrame">education</a> &nbsp; &nbsp;
+    <a href="aboutMe.html" target="myFrame">about me</a> &nbsp; &nbsp; &nbsp;
+    </nav>
    
 
     <br>
-    <iframe width="800px" height="800px"  src="" name="myFrame" frameborder="0"></iframe> 
+    <iframe width="980px" height="380px"  src="" name="myFrame" frameborder="0"></iframe> 
     <br>
 
     <footer>
         <span>Follow Me</span> &nbsp; &nbsp;
-        <a href="https://github.com/" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+        <a href="https://github.com/" target="_blank"><i class="fa fa-2x fa-github-square" aria-hidden="true"></i></a>
          &nbsp; &nbsp;
-        <a href="https://www.linkedin.com/login" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/login" target="_blank"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
         &nbsp; &nbsp;
-        <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
         &nbsp; &nbsp;
-        <a href="http://facebook.com/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="http://facebook.com/" target="_blank"><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i></a>
     
         <p> Copyright &copy; 2023 Zoom Video Communication, Inc. All right reserved &dollar;</p>
     </footer>
