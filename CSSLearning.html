@@ -50,6 +50,12 @@
             text-align: center;
             font-family: 'Courier New', Courier, monospace;
         }
+        .dummy li{
+            list-style: circle ;  /* square*/
+        }
+        .fruits li{
+            list-style-type: lower-roman;   /*upper-latin | lower-alpha  | upper-alpha;*/
+        }
         
     </style>
 </head>
@@ -58,7 +64,7 @@
     <p style="color: orange; font-weight: bolder; font-size: larger;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
     
     <h3 id="summary"> Professional Summary </h3>
-    <ul>
+    <ul class="dummy">
         <li>Lorem ipsum dolor sit.</li>
         <li id="summary2">Lorem ipsum dolor sit amet consectetur.</li>
         <li id="Summary3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
@@ -66,16 +72,20 @@
     </ul>
     <h3>My <span> Permanent </span> Address</h3>
     <h3 class="listFruit"> List Of Fruit</h3>
-    <ul>
+    <ol class="fruits">
         <li>Apple</li>
         <li class="fruit">Mango</li>
         <li class="fruit">Water melon</li>
         <li>Grapes</li>
-    </ul>
+    </ol>
 
         <p class="para">
-            <span class="summ">Lorem ipsum dolor </span> sit amet consectetur adipisicing elit. Facere laboriosam laborum ea aliquid, sequi rerum maxime inventore laudantium dolores praesentium quis iure incidunt sit quo ipsum in, non similique mollitia!
+          Lorem.<span class="summ">Lorem ipsum dolor </span> sit amet consectetur adipisicing elit. Facere laboriosam laborum ea aliquid, sequi rerum maxime inventore laudantium dolores praesentium quis iure incidunt sit quo ipsum in, non similique mollitia!
         </p>
+
+        <p class="education">
+            My Education Detail
+          </p>
         
 </body>
 </html>

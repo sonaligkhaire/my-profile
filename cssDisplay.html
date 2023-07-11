@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        
+        #learning{
+                display:block;
+               /* width: 200px; */
+        }
+
+        
+        .depth{
+         display: inline;
+           /* width: 200px; */
+        }
+        .angular{
+          /*  width: 200px;*/
+          display: inline;
+        }
+        .react{
+            width: 200px;
+            display: inline-block;
+        }
+        .list li{
+            display: inline-block;
+            border: 1px solid orange;
+            margin-right: 150px;
+            width: 100px;
+            height: 30px;    
+        }
+        ul.jenny{
+            display: none;
+        }
+        .para1{
+            border: 1px solid orange;
+            width: 100px;
+            height: 60px;
+
+        }
+        .para2{
+           /* display: none;*/                   /* this element not display it is hide that element space is also not display*/
+            visibility: hidden;        /* this element is hidden bt space is not hidden. it is show space*/
+            border: 1px solid orange;
+            width: 100px;
+            height: 60px;
+        }
+        .para3{
+            border: 1px solid orange;
+            width: 100px;
+            height: 60px;
+        }
+        .dummy{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h2 id="learning">Learning display property</h2>
+    <p class="depth"> I have stared learning display property in depth</p>
+    <span class="angular">Angular</span>
+    <span class="react">React</span>
+    
+    <h2>My friend list</h2>
+    <ul class="list">
+        <li class="jenny">jenny</li>
+        <li>mona</li>
+        <li>sona</li>
+        <li>pooja</li>
+    </ul>
+
+    <p class="para1">Para1</p>
+    <p class="para2">Para2</p>
+    <p class="para3">Para3</p>
+
+    <p class="dummy">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+</body>
+</html>
