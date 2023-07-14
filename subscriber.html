@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscriber</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <style>   
+    
+    h2{
+        font-family: 'Poppins', sans-serif; 
+    }
+      div p{
+        box-sizing: border-box;
+        width: auto;
+        margin: auto;
+        border: 10px;
+        padding-left: 20px;
+        background-color: aqua;
+        font-family: 'Poppins', sans-serif;
+      } 
+    
+      input[type="text"]{
+            width: 500px;
+            /* border-radius: 10px; */
+            padding: 7px;
+            /* font-weight: bolder; */
+            text-transform:none;
+            font-size: medium;
+            /* font-family: 'Poppins', sans-serif; */
+
+        }
+        input[type="email"]{
+            /* border-radius:10px; */
+            width: 500px;
+            padding: 7px;
+            /* font-weight: bolder; */
+            text-transform: none;
+            /* font-family: 'Roboto', sans-serif; */
+        }
+        button[type="submit"]{
+            background-color: cadetblue;
+            text-align: center;
+        }
+        fieldset{
+            border-radius: 10px;
+            width:600px ;
+        }
+        
+    </style>
+</head>
+<body>
+    <fieldset>
+    <h2>Subscriber</h2>
+    <hr>
+    <div>
+        <p>We're sorry to see you go, but hey,no hard<br> feelings,hopefully wew will see you back<br>one day.<br> Please fill in email address in order to<br>unsubscribe from the list.<br> You will receive an email to confirm your<br> unsubscription ,just to make sure this is<br> not an accident or somebody tries to<br> unsubscribe you.</p>
+    </div>
+    
+    <br>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label id="a">Email</label></td> 
+                </tr>
+                <tr>
+                    <td><input type="email" required placeholder="abc@gmail.com"></td> &nbsp;&nbsp;
+                </tr>
+                <tr>
+                    <td><label>Unsubscribe reason</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" required maxlength="20" placeholder="Unsubscribe reason"></td>&nbsp;&nbsp;
+                </tr>
+                <tr>
+                    <td><button type="submit">Unsubscribe</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</fieldset>
+</body>
