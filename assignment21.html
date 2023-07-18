@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position CSS</title>
+    <style>
+        .div1{
+            display: inline-block;
+            height: 300px;
+            width: 190px;
+            border: 2px solid rgb(227,232,233);
+            border-radius: 15px;
+            left: 80px;
+            top: 50px;
+            position: relative;
+            box-shadow: 13px 13px 10px -8px rgb(82,80,80);
+             background-color: #fffffa;
+
+        }
+        .box1{
+            display: inline-block;
+            position: absolute;
+            height: 54px;
+            width: 186px;
+            background-color: green;
+            border: 2px solid green;
+            border-radius: 10px;
+        }
+        .basic{
+            display: inline-block;
+            position: absolute;
+            color: aliceblue;
+            padding-left: 55px;
+            padding-top: 10px;
+            font-size: 30px;
+
+        }
+        .box2{
+            display: inline-block;
+            position: absolute;
+            left: 20px;
+            bottom: 20px;
+            width: 150px;
+            height: 30px;
+            background-color: green;
+            border: 2px solid green;
+            border-radius: 15px;
+
+        }
+        .buy{
+            display: inline-block;
+            position: absolute;
+            color: aliceblue;
+            padding-left: 40px;
+            padding-top: 6px;
+            font-weight: bold;
+        }
+        .div2{
+            display: inline-block;
+            height: 300px;
+            width: 190px;
+            border: 2px solid rgb(227,232,233);
+            border-radius: 15px;
+            left: 105px;
+            top: 20px;
+            position: relative;
+            box-shadow: 13px 13px 10px -8px rgb(82,80,80);
+            background-color:#fffffa; 
+  
+        }
+        .box3{
+            display: inline-block;
+            position: absolute;
+            /* left: 20px;
+            bottom: 20px; */
+            width: 186px;
+            height: 54px;
+            background-color:blue;
+            border: 2px solid blue;
+            border-radius: 10px;
+
+        }
+        .standard{
+            display: inline-block;
+            position: absolute;
+            color: aliceblue;
+            padding-left: 30px;
+            padding-top: 10px;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .box4{
+            display: inline-block;
+            position: absolute;
+            left: 20px;
+            bottom: 20px;
+            width: 150px;
+            height: 30px;
+            background-color: blue;
+            border: 2px solid blue;
+            border-radius: 15px;
+        }
+         .div3{
+            display: inline-block;
+            height: 300px;
+            width: 190px;
+            border: 2px solid rgb(227,232,233);
+            border-radius: 15px;
+            left: 130px;
+            top: 52px;
+            position: relative;
+            box-shadow: 13px 13px 10px -8px rgb(82,80,80);
+             background-color: #fffffa; 
+  
+        } 
+        .list{
+            margin-left: 5px;
+            margin-top: 60px;
+
+        }
+        .list li{
+            list-style-type: none;
+        }
+        .h2{
+            margin-left: 70px;
+        }
+        fieldset{
+            background-color:peachpuff;
+            height: 1000px;
+            width: 900px;
+        }
+        
+    </style>
+</head>
+<body>
+    <fieldset>
+    <div class>
+        <div class="div1">
+            <div class="box1">
+                <div class="basic">Basic</div>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>✅Hosting</li>
+                    <li>❌Domain</li>
+                    <li>✅1 GB Space</li>
+                    <li>❌Free SSL</li>
+                    <li>✅ 1 Website Host</li>
+                </ul>
+            </div>
+            <h2 class="h2">$5</h2>
+            <div class="box2">
+                <div class="buy">Buy Now</div>
+            </div>
+        </div>
+        <div class="div2">
+            <div class="box3">
+                <div class="standard">Standard</div>
+            </div>
+            <div class="list">
+                <ul>
+                <li>✅Hosting</li>
+                <li>✅Domain</li>
+                <li>✅1 GB Space</li>
+                <li>❌Free SSL</li>
+                <li>✅! Website Host</li>
+                </ul>
+                <h2 class="h2">$10</h2>
+            </div>
+                <div class="box4">
+                    <div class="buy">Buy Now</div>
+                </div>
+        </div>
+
+        <div class="div3">
+            <div class="box1">
+                <div class="standard">Standard</div>
+            </div>
+            <div class="list">
+                <ul><li>✅Hosting</li>
+                    <li>✅Domain</li>
+                    <li>✅1 GB Space</li>
+                    <li>✅Free SSL</li>
+                    <li>✅! Website Host</li>
+                </ul>
+            </div>
+            <h2 class="h2">$20</h2>
+            <div class="box2">
+            <div class="buy">Buy Now</div>
+        </div>
+    </div>
+    </div>
+</fieldset>
+</body>
+</html>
